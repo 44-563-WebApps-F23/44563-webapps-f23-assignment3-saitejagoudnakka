@@ -55,6 +55,20 @@
             <td>Increases body strength</td>
         </tr>
     </table>
+    <hr>
+    
+    <blockquote>Angular 16, parent component is not passing data to the second child component</blockquote>
+    <a href="Angular 16, parent component is not passing data to the second child component">Quick link to the source</a>
+    <pre>
+        var randomColor = Math.floor(Math.random()*16777215).toString(16);
+        const setBg = () => {
+        const randomColor = Math.floor(Math.random()*16777215).toString(16);
+        document.body.style.backgroundColor = "#" + randomColor;
+        color.innerHTML = "#" + randomColor;
+      }
+      
+      genNew.addEventListener("click", setBg);
+      setBg();</pre>
 
 </body>
 </html>
